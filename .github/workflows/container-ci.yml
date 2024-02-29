@@ -25,7 +25,7 @@ jobs:
         uses: docker/build-push-action@v5.1.0
         with:
           context: .
-          file: ./Source/Microservices/consumer-notification-amtp/Dockerfile
+          file: ./dockerfile
           push: true
           tags: |
             ghcr.io/${{ github.actor }}/consumer-notification-amtp:latest
