@@ -4,7 +4,7 @@ go 1.27.0
 
 require (
 	github.com/joho/godotenv v1.5.1
-	github.com/sendgrid/sendgrid-go v3.14.0+incompatible
+	github.com/sendgrid/sendgrid-go v3.16.0+incompatible
 	github.com/streadway/amqp v1.1.0
 )
 
